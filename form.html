@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>用户信息</title>
+	</head>
+	
+	<body>	
+        <form>
+			<table border="1" align="center" cellpadding="1" cellspacing="2" >
+				<tr>
+					<td width="125" height="35">昵称：</td>
+					<td width="300" ><input type="text" name="username"/></td>
+				</tr>
+				<tr>
+					<td width="125" height="35">密码：</td>
+					<td width="300"><input type="password" name="pwd"/></td>
+				</tr>
+                <tr>
+					<td width="125" height="35">邮箱：</td>
+					<td width="300"><input type="text" name="mail"/>
+                        <select>
+							<option value="@qq.com">qq.com</option>
+							<option value="@163.com">@163.com</option>
+							<option value="...">其他</option>
+						</select>
+                    </td>
+				</tr>
+				<tr>
+					<td width="125" height="35">性别:</td>
+					<td width="300">
+						<input type="radio" name="sex" value=1 />男
+						<input type="radio" name="sex" value=0 />女
+					</td>
+				</tr>
+				<tr>
+					<td width="125" height="35">爱好：</td>
+					<td width="300">
+						<input type="checkbox" name="hobby" value="travel" />旅游
+						<input type="checkbox" name="hobby" value="photography" />摄影
+						<input type="checkbox" name="hobby" value="exercise" />运动
+					</td>
+				</tr>
+				<tr>
+					<td width="125" height="35">介绍：</td>
+					<td width="300">
+						<textarea cols="50" rows="5"></textarea>
+                        <a href="index.html" name="first" title="first_link">我的简历</a>
+					</td>
+				</tr>
+                <tr>
+					<td width="125" height="35">照片：</td>
+					<td width="300">
+						<input type="file" name="photo" </td>
+				</tr>
+				<tr>
+					<td width="125" height="35" colspan="2">
+						<input type="submit" value="立即注册"/>
+						<input type="reset" />
+					</td>
+	
+				</tr>
+			</table>
+		</form>
+	</body>
+</html>
